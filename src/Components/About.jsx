@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='w-full bg-[#cdea68] rounded-tl-2xl rounded-tr-2xl text-black'>
+        <div className='  w-full bg-[#cdea68] rounded-t-2xl text-black'>
             <h1 className='text-[3vw] py-20 px-15'>Ochi is a strategic presentation agency for forward-thinking businesses that need to <u>aise funds, sell prod­ucts, ex­plain com­plex ideas, and hire great peo­ple.</u> </h1>
             <div className="w-full flex text-[1.2vw] border border-[#91a34d] p-4 pb-[8%]">
                 <div className="w-[50%] ">
