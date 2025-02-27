@@ -1,29 +1,22 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Navbar from './Components/Navbar'
-import LandingPage from './Components/LandingPage'
+import Hero from './Components/Hero'
 import Marquee from './Components/Marquee'
 import About from './Components/About'
 import Eyes from './Components/Eyes'
-import Feature from './Components/Feature'
-import LocomotiveScroll from 'locomotive-scroll'
-import Reviews from './Components/Reviews'
-import Cards from './Components/Cards'
-import ProjectEye from './Components/ProjectEye'
-
+import Project from './Components/Project'
+import Reveiws from './Components/Reveiws'
 
 const App = () => {
-  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full min-h-screen bg-zinc-900 text-white '>
+    <div className='w-full bg-zinc-900 text-white'>
       <Navbar />
-      <LandingPage />
+      <Hero />
       <Marquee />
       <About />
       <Eyes />
-      <Feature />
-      <Reviews />
-      <Cards />
-      <ProjectEye />
+      <Project />
+      <Reveiws />
     </div>
   )
 }
